@@ -1,15 +1,13 @@
-Shader "Custom/sen_Shade"
+Shader "Custom/Color_Shade"
 {
+
     //プロパティセクション
     Properties
     {
         //カスタムプロパティ”_Color”の宣言 "_Color"プロパティはシェーダーのカラーを指定します。
         _Color ("Color", Color) = (1,1,1,1)
-
         //カスタムプロパティ”_Strength”の宣言"_Strength"プロパティはシェーダーの強度を指定します。範囲は０から１です。
         _Strength("Strength", Range(0,1)) = 0.4
-
-        //カスタムプロパティ"_OutlieColor"の宣言
 
         // _MainTex ("Albedo (RGB)", 2D) = "white" {}
         // _Glossiness ("Smoothness", Range(0,1)) = 0.5
