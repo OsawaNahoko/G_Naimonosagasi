@@ -19,36 +19,16 @@ public class MoveManeger : MonoBehaviour
             BackMove();
             Debug.Log("Sおされてんぞ");
         }
-
-        if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.RightArrow))
-        {
-           RightMove();
-            Debug.Log("Dおされてんぞ");
-        }
-
-        if(Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.LeftArrow))
-        {
-            LeftArrow();
-            Debug.Log("Aおされてんぞ");
-        }
     }
      void forwardMove()
      {
         this.transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+        // this.transform.Translate(0.0f,0.0f, MoveSpeed);
      }
 
      void BackMove()
      {
-        this.transform.position -= transform.forward * MoveSpeed * Time.deltaTime;
-     }
-
-     void RightMove()
-     {
-        this.transform.position  += transform.right * MoveSpeed * Time.deltaTime;
-     }
-
-     void LeftArrow()
-     {
-        this.transform.position  -= transform.right * MoveSpeed * Time.deltaTime;
+        this.transform.position += transform.forward * - MoveSpeed * Time.deltaTime;
+        //this.transform.Translate(0.0f,0.0f, - MoveSpeed);
      }
 }
