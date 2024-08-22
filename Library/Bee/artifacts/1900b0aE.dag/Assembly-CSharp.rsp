@@ -373,9 +373,9 @@
 -analyzer:"C:/Program Files/Unity 2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity 2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/myAssets_OSAWA/script_OSAWA/MainCamera/CameraDistance.cs"
-"Assets/myAssets_OSAWA/script_OSAWA/MainCamera/look.cs"
 "Assets/myAssets_OSAWA/script_OSAWA/PazzlePese/PeseMove.cs"
 "Assets/myAssets_OSAWA/script_OSAWA/PazzlePese/RaycastTest.cs"
+"Assets/myAssets_OSAWA/script_OSAWA/Player/look.cs"
 "Assets/myAssets_OSAWA/script_OSAWA/Player/MoveManeger.cs"
 "Assets/myAssets_OSAWA/Sheder_OSAWA/Object_Rotetion.cs"
 -langversion:9.0
