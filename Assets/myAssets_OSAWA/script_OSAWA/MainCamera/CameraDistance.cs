@@ -39,7 +39,7 @@ public class CameraDistance : MonoBehaviour
         {
             transform.localPosition = Vector3.Lerp(transform.localPosition, Position, 1);
         }
-        Debug.Log(Distance);
-        Debug.Log(Mask);
+        // Debug.Log(Distance);
+        // Debug.Log(Mask);
     }
 }
