@@ -1058,6 +1058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56c6a4cc17e65564eb78d3bafe687b84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainLight: {fileID: 2123334311}
+  HandLight: {fileID: 1373829142}
   lightData: {fileID: 11400000, guid: 0badf0f8cd5b9fc4b876c3c5fc934771, type: 2}
 --- !u!114 &1151701639
 MonoBehaviour:
@@ -1172,7 +1174,7 @@ GameObject:
   - component: {fileID: 1373829143}
   - component: {fileID: 1373829145}
   m_Layer: 0
-  m_Name: Player Light
+  m_Name: HandLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2067,7 +2069,7 @@ GameObject:
   - component: {fileID: 2123334313}
   - component: {fileID: 2123334312}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: MainLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

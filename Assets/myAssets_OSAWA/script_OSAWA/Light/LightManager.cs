@@ -7,12 +7,29 @@ public class LightManager : MonoBehaviour
     bool isPlaing  = false;//処理中かどうかを判定
     GameObject[] _NossingObj;
 
+    [SerializeField]GameObject MainLight;
+    [SerializeField]GameObject HandLight;
+
+    Light MainLightComponet;
+    Light HandLightComponet;
+
     [SerializeField] LightData lightData;//LightData
 
     // Start is called before the first frame update
     void Start()
     {
-        // _NossingObjcount = GameObject.FindGameObjectsWithTag("NossingObj").Length;
+        _NossingObj = GameObject.FindGameObjectsWithTag("NossingObject");
+
+        if(MainLight != null && HandLight != null)
+        {
+                MainLightComponet = MainLight.gameObject.GetComponent<Light>();
+                HandLightComponet = HandLight.gameObject.GetComponent<Light>();
+        }
+        else
+        {
+            Debug.LogError("MainLightかHandLightがNullです。");
+        }
+
     }
 
     void Update()
@@ -38,10 +55,13 @@ public class LightManager : MonoBehaviour
         if(lightData.isLighting == false)
         {
             lightData.isLighting = true;//Litghtが点灯している。
-            //LItghtを点灯させます。
-            //Litghtの角度90度に。
+            //HandLightを消灯。
+            HandLightComponet.intensity = 0.0f;
 
-            _NossingObj = GameObject.FindGameObjectsWithTag("NossingObject");
+            //MainLightを点灯。
+            MainLightComponet.intensity = 500.0f;
+
+            //Nossingオブジェクトを表示しています。
             if(_NossingObj == null)
             {
                 Debug.LogError("Nullだよ");
@@ -60,9 +80,14 @@ public class LightManager : MonoBehaviour
         else if (lightData.isLighting == true)
         {
             lightData.isLighting = false;//Litghtが消灯している。
-            //LItghtを消灯させます。
-            //Litghtの角度160度に。
-            _NossingObj = GameObject.FindGameObjectsWithTag("NossingObject");
+
+            //HandLightを点灯。
+            HandLightComponet.intensity = 300.0f;
+
+            //MainLightを消灯。
+            MainLightComponet.intensity = 0.0f;
+
+            //Nossingオブジェクトを非表示にしています。
             if(_NossingObj == null)
             {
                 Debug.LogError("Nullだよ");
