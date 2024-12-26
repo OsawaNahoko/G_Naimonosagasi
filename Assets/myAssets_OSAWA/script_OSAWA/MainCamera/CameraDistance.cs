@@ -4,42 +4,38 @@ using UnityEngine;
 
 public class CameraDistance : MonoBehaviour
 {
-    private GameObject Parent;
+    // private GameObject Parent;
 
-    private Vector3 Position;
+    // private Vector3 Position;
 
-    private RaycastHit Hit;
+    // private RaycastHit Hit;
 
-    private float Distance;
+    // private float Distance;
 
-    private int Mask;
+    // private int Mask;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        Parent = transform.root.gameObject;
-        Position = transform.localPosition;
-        Distance = Vector3.Distance(Parent.transform.position,transform.position);
+    // void Start()
+    // {
+    //     Parent = transform.root.gameObject;
+    //     Position = transform.localPosition;
+    //     Distance = Vector3.Distance(Parent.transform.position,transform.position);
 
-        Mask = ~(1 << LayerMask.NameToLayer("Player"));
-    }
+    //     Mask = ~(1 << LayerMask.NameToLayer("Player"));
+    // }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Physics.CheckSphere(Parent.transform.position,0.3f,Mask))
-        {
-            transform.position = Vector3.Lerp(transform.position, Parent.transform.position, 1);
-        }
-        else if(Physics.SphereCast(Parent.transform.position,0.3f,(transform.position - Parent.transform.position).normalized,out Hit,Distance,Mask))
-        {
-            transform.position = Parent.transform.position + (transform.position - Parent.transform.position).normalized * Hit.distance;
-        }
-        else
-        {
-            transform.localPosition = Vector3.Lerp(transform.localPosition, Position, 1);
-        }
-        // Debug.Log(Distance);
-        // Debug.Log(Mask);
-    }
+    // void Update()
+    // {
+    //     if(Physics.CheckSphere(Parent.transform.position,0.3f,Mask))
+    //     {
+    //         transform.position = Vector3.Lerp(transform.position, Parent.transform.position, 1);
+    //     }
+    //     else if(Physics.SphereCast(Parent.transform.position,0.3f,(transform.position - Parent.transform.position).normalized,out Hit,Distance,Mask))
+    //     {
+    //         transform.position = Parent.transform.position + (transform.position - Parent.transform.position).normalized * Hit.distance;
+    //     }
+    //     else
+    //     {
+    //         transform.localPosition = Vector3.Lerp(transform.localPosition, Position, 1);
+    //     }
+    // }
 }

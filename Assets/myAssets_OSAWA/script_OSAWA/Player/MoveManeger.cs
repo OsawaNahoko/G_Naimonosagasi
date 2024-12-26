@@ -4,31 +4,19 @@ using UnityEngine;
 
 public class MoveManeger : MonoBehaviour
 {
-    public float MoveSpeed; 
+    public CharacterController charaCon;
+
+    private Vector3 moveInput;
+    public float _Speed;//Playreの移動速度
+    public float mouseSensitivity;
+    
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.UpArrow))
-        {
-            forwardMove();
-            Debug.Log("Wおされてんぞ");
-        }
+        moveInput.x = Input.GetAxis("Horizontal") * _Speed * Time.deltaTime;
+        moveInput.z = Input.GetAxis("Vertical") * _Speed * Time.deltaTime;
 
-        if(Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.DownArrow))
-        {
-            BackMove();
-            Debug.Log("Sおされてんぞ");
-        }
+        charaCon.Move(moveInput);
     }
-     void forwardMove()
-     {
-        this.transform.position += transform.forward * MoveSpeed * Time.deltaTime;
-        // this.transform.Translate(0.0f,0.0f, MoveSpeed);
-     }
 
-     void BackMove()
-     {
-        this.transform.position += transform.forward * - MoveSpeed * Time.deltaTime;
-        //this.transform.Translate(0.0f,0.0f, - MoveSpeed);
-     }
 }

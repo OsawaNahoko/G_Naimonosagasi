@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/myAssets_OSAWA/Scenes_OSAWA/SampleScene.unity
+- path: Assets/myAssets_OSAWA/Scenes_OSAWA/1_1_Game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
