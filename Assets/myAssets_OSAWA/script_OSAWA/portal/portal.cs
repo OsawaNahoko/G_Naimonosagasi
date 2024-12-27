@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class portal : MonoBehaviour
 {
     // [SerializeField] LightData lightData;//LightData
-    // [SerializeFIeld] Text scoreLabel;
+    [SerializeField] Transform portlTransform;
 
     // Start is called before the first frame update
     void OnTriggerEnter(Collider collision)
@@ -17,8 +17,9 @@ public class portal : MonoBehaviour
             GameObject CollgameObject = collision.gameObject;
             if(CollgameObject != null)
             {
-                //NossingObuject を　削除します,
-                Destroy(CollgameObject);
+                //NossingObuject を　Playerの認識外に,
+                var CollObjectTrans = CollgameObject.transform;
+                CollObjectTrans.position = portlTransform.position;
             }
             else
             {

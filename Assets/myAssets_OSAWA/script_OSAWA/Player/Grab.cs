@@ -18,6 +18,7 @@ public class Grab : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             RayCast_Object();
+            Debug.Log($"_GrabFlag is {_GrabFlag}");
 
             if(GrabObj != null)
             {
