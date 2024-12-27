@@ -74,7 +74,7 @@ public class LightManager : MonoBehaviour
                 }
             }
             
-            Debug.Log("ライトアップ！！ほら見て豪蘭さんきれいだよ。");
+            Debug.Log("ライトアップ！！");
         }
         //ライトが点灯していたら
         else if (lightData.isLighting == true)
@@ -100,7 +100,7 @@ public class LightManager : MonoBehaviour
                 }
             }
 
-            Debug.Log("ライト消灯！！！寝な。");
+            Debug.Log("ライト消灯！！");
         }
         
         yield return new WaitForSeconds(5.0f);

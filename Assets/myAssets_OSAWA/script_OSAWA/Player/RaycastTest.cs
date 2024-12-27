@@ -4,21 +4,26 @@ using UnityEngine;
 
 public class RaycastTest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        Vector3 origin    = new Vector3(0,0,0);//原点
-        Vector3 direction = new Vector3(1,0,0);//方向を表すベクトル
-        Ray ray           = new Ray(origin,direction);//Rayを生成
+    //Rayの飛ばせる距離
+    int distans = 10;
 
-        Debug.DrawRay(ray.origin,ray.direction * 50,Color.red,100.0f);
-
-        // Ray ray = new Ray(Vector3 origin, Vector3 direction);
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        //作成したRayの中にマウスカーソルの位置情報を代入
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //Rayの情報
+        RaycastHit hit;
 
+        if (Physics.Raycast(ray,out hit,distans))
+        {
+            if(hit.collider.tag is "NossingObject" or "GameObject")
+            {
+                Debug.Log(hit.collider.gameObject.transform.position);
+                Debug.Log("Objctに当たった！");
+            }
+        }
+        //Rayの可視化    ↓Rayの原点　↓Rayの方向　　　　　↓Rayの色
+        Debug.DrawRay(ray.origin, ray.direction * 10, Color.red, 5);
     }
 }
+
