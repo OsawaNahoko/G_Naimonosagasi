@@ -707,6 +707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portlTransform: {fileID: 873208892}
+  NossingCountText: {fileID: 232751171}
 --- !u!1 &430565039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2295,6 +2296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portlTransform: {fileID: 0}
+  NossingCountText: {fileID: 0}
 --- !u!54 &1647826417
 Rigidbody:
   m_ObjectHideFlags: 0

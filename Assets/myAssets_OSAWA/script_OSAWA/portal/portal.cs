@@ -7,6 +7,20 @@ public class portal : MonoBehaviour
 {
     // [SerializeField] LightData lightData;//LightData
     [SerializeField] Transform portlTransform;
+    [SerializeField] Text NossingCountText;
+    int NossingCount = 0;
+
+    void Start()
+    {
+        // if(NossingCountText == null)
+        // {
+        //     Debug.LogError("NossingCountText is null");
+        // }
+        // if(portlTransform == null)
+        // {
+        //     Debug.LogError("portlTransform is null");
+        // }
+    }
 
     // Start is called before the first frame update
     void OnTriggerEnter(Collider collision)
@@ -20,12 +34,13 @@ public class portal : MonoBehaviour
                 //NossingObuject を　Playerの認識外に,
                 var CollObjectTrans = CollgameObject.transform;
                 CollObjectTrans.position = portlTransform.position;
+                NossingCount += 1;
+                NossingCountText.text = $"{NossingCount}";
             }
             else
             {
-                Debug.LogError("例外が発生しました");
+                Debug.LogError("CollgameObject is null");
             }
-
         }
 
         if(collision.CompareTag("GameObject"))
@@ -41,7 +56,7 @@ public class portal : MonoBehaviour
             }
             else
             {
-                Debug.LogError("例外が発生しました");
+                Debug.LogError("CollgameObject is null");
             }
         }
   
