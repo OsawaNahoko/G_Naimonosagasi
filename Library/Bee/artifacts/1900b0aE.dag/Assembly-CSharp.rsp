@@ -388,7 +388,7 @@
 "Assets/myAssets_OSAWA/InpotAssets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
 "Assets/myAssets_OSAWA/MAT_OSAWA/Sheder_OSAWA/Object_Rotetion.cs"
 "Assets/myAssets_OSAWA/script_OSAWA/GameManager/GameManager.cs"
-"Assets/myAssets_OSAWA/script_OSAWA/GameManager/GetObject.cs"
+"Assets/myAssets_OSAWA/script_OSAWA/GameManager/GetObjectData.cs"
 "Assets/myAssets_OSAWA/script_OSAWA/Light/LightData.cs"
 "Assets/myAssets_OSAWA/script_OSAWA/Light/LightManager.cs"
 "Assets/myAssets_OSAWA/script_OSAWA/MainCamera/CameraDistance.cs"

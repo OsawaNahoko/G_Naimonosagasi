@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class portal : MonoBehaviour
 {
-    // [SerializeField] LightData lightData;//LightData
     [SerializeField] Transform portlTransform;
     [SerializeField] Text NossingCountText;
+
+    [SerializeField] AllObjectData allObjectData;
+    [SerializeField] GameObject GameClear;
+
     int NossingCount = 0;
 
     void Start()
@@ -19,6 +22,14 @@ public class portal : MonoBehaviour
         // if(portlTransform == null)
         // {
         //     Debug.LogError("portlTransform is null");
+        // }
+        // if(allObjectData == null)
+        // {
+        //     Debug.LogError("allObjectData is null");
+        // }
+        // if(GameClear == null)
+        // {
+        //     Debug.LogError("GameClear is null");
         // }
     }
 
@@ -36,6 +47,10 @@ public class portal : MonoBehaviour
                 CollObjectTrans.position = portlTransform.position;
                 NossingCount += 1;
                 NossingCountText.text = $"{NossingCount}";
+                if(allObjectData.AllObjectCount == NossingCount)
+                {
+                    GameClear.SetActive(true);
+                }
             }
             else
             {

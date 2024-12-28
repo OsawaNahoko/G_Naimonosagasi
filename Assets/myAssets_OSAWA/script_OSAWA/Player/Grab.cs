@@ -17,19 +17,25 @@ public class Grab : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0))
         {
-            RayCast_Object();
+            
             Debug.Log($"_GrabFlag is {_GrabFlag}");
 
-            if(GrabObj != null)
-            {
                 //オブジェクトの取得処理
                 if(_GrabFlag == false)
                 {
-                    GrabObj.GetComponent<Rigidbody>().isKinematic = true;
-                    GrabObj.transform.position = grabPoint.position;
-                    GrabObj.transform.SetParent(transform);
+                    RayCast_Object();
+                    if(GrabObj != null)
+                    {
+                        GrabObj.GetComponent<Rigidbody>().isKinematic = true;
+                        GrabObj.transform.position = grabPoint.position;
+                        GrabObj.transform.SetParent(transform);
 
-                    _GrabFlag = true;
+                        _GrabFlag = true;
+                    }
+                    else
+                    {
+                        Debug.Log("GrabObj is Null");
+                    }
                 }
                 else
                 {
@@ -39,13 +45,6 @@ public class Grab : MonoBehaviour
 
                     _GrabFlag = false;
                 }
-            }
-            else if(GrabObj == null)
-            {
-                Debug.Log("GrabObj is Null");
-            }
-
-
 
             Debug.Log("左クリックを検知");
         }

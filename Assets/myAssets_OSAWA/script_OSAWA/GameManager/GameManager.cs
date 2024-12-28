@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]Text AllObjectText;
+    [SerializeField] AllObjectData allObjectData;
     
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour
         {
             int NossingCount = GameObject.FindGameObjectsWithTag("NossingObject").Length;
             AllObjectText.text = $"/{NossingCount}";
+            allObjectData.AllObjectCount = NossingCount;
         }
         else
         {
