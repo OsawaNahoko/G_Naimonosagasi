@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/myAssets_OSAWA/Scenes/BuldSenes/0_1_title.unity
+    guid: 836c2e462e1e0d74e988591472af74be
+  - enabled: 1
+    path: Assets/myAssets_OSAWA/Scenes/BuldSenes/1_1_Game.unity
+    guid: e9e78e5a4ebba9c4394c69e4b1af7d70
+  - enabled: 1
+    path: Assets/myAssets_OSAWA/Scenes/BuldSenes/2_1_GameClear.unity
+    guid: 51b380255cf2e684a9145c0c7f8a8df1
   m_configObjects: {}

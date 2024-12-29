@@ -391,6 +391,7 @@
 "Assets/myAssets_OSAWA/script/GameManager/GameManager.cs"
 "Assets/myAssets_OSAWA/script/GameManager/GetObjectData.cs"
 "Assets/myAssets_OSAWA/script/GameManager/LoadSceneManager.cs"
+"Assets/myAssets_OSAWA/script/GameManager/ObjectSetActiveSwitier.cs"
 "Assets/myAssets_OSAWA/script/GameManager/TextManager.cs"
 "Assets/myAssets_OSAWA/script/Light/LightData.cs"
 "Assets/myAssets_OSAWA/script/Light/LightManager.cs"
