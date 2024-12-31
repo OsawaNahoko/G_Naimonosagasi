@@ -323,6 +323,7 @@ MonoBehaviour:
   MainLight: {fileID: 2123334311}
   HandLight: {fileID: 1373829142}
   lightData: {fileID: 11400000, guid: 0badf0f8cd5b9fc4b876c3c5fc934771, type: 2}
+  LookLimit: {fileID: 784889310}
 --- !u!114 &12060775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +490,7 @@ GameObject:
   - component: {fileID: 15458451}
   m_Layer: 0
   m_Name: plate1 (1)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -622,7 +623,7 @@ GameObject:
   - component: {fileID: 15857259}
   m_Layer: 0
   m_Name: Box109
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1106,7 +1107,7 @@ Transform:
   m_GameObject: {fileID: 37567222}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.29, y: 2.0946, z: -0.41}
+  m_LocalPosition: {x: 8.29, y: 2.0946, z: -0.568}
   m_LocalScale: {x: 0.33, y: 0.7092, z: 0.22}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1149,7 +1150,7 @@ GameObject:
   - component: {fileID: 44664259}
   m_Layer: 0
   m_Name: Fork
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,7 +1164,7 @@ Transform:
   m_GameObject: {fileID: 44664255}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 2.0014994}
+  m_LocalPosition: {x: 1.04, y: 0.0037, z: 2.28}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1668,7 +1669,7 @@ GameObject:
   - component: {fileID: 91894664}
   m_Layer: 0
   m_Name: dinning_chair
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1682,7 +1683,7 @@ Transform:
   m_GameObject: {fileID: 91894660}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: -1.4651408, y: 0.06845808, z: -0.10577881}
+  m_LocalPosition: {x: -1.4651408, y: 0.06845808, z: -0.3872782}
   m_LocalScale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2051,7 +2052,7 @@ GameObject:
   - component: {fileID: 114814946}
   m_Layer: 0
   m_Name: Box102 (2)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2184,7 +2185,7 @@ GameObject:
   - component: {fileID: 116561285}
   m_Layer: 0
   m_Name: Table_mat
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2198,7 +2199,7 @@ Transform:
   m_GameObject: {fileID: 116561281}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.844, y: 0.002, z: 2.089}
+  m_LocalPosition: {x: 0.84, y: 0.002, z: 2.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2551,7 +2552,7 @@ GameObject:
   - component: {fileID: 147393765}
   m_Layer: 0
   m_Name: Magazine
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3131,7 +3132,7 @@ GameObject:
   - component: {fileID: 178868205}
   m_Layer: 0
   m_Name: Notepad
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3572,7 +3573,7 @@ GameObject:
   - component: {fileID: 200434303}
   m_Layer: 0
   m_Name: Fork
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3586,7 +3587,7 @@ Transform:
   m_GameObject: {fileID: 200434299}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 2.0014994}
+  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 1.72}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4312,7 +4313,7 @@ GameObject:
   - component: {fileID: 230594396}
   m_Layer: 0
   m_Name: Box108
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4445,7 +4446,7 @@ GameObject:
   - component: {fileID: 232348507}
   m_Layer: 0
   m_Name: Fork
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4459,7 +4460,7 @@ Transform:
   m_GameObject: {fileID: 232348503}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 2.0014994}
+  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 1.72}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5021,7 +5022,7 @@ GameObject:
   - component: {fileID: 266734919}
   m_Layer: 0
   m_Name: StudyRoom Table Lamp
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5322,7 +5323,7 @@ GameObject:
   - component: {fileID: 277532678}
   m_Layer: 0
   m_Name: Fork
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5336,7 +5337,7 @@ Transform:
   m_GameObject: {fileID: 277532674}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 2.0014994}
+  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 1.72}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6389,10 +6390,10 @@ GameObject:
   - component: {fileID: 315965231}
   m_Layer: 0
   m_Name: VaseFloor_1
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &315965228
 Transform:
@@ -6642,7 +6643,7 @@ GameObject:
   - component: {fileID: 336266918}
   m_Layer: 0
   m_Name: Box106
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6775,7 +6776,7 @@ GameObject:
   - component: {fileID: 337735718}
   m_Layer: 0
   m_Name: Knife
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6789,7 +6790,7 @@ Transform:
   m_GameObject: {fileID: 337735714}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000026077032, y: 0.7071068, z: 0.7071068, w: 0.00000026077032}
-  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.9894993}
+  m_LocalPosition: {x: 1.17, y: 0.0031, z: 2.27}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7263,7 +7264,7 @@ GameObject:
   - component: {fileID: 347427083}
   m_Layer: 0
   m_Name: Box103 (6)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7600,7 +7601,7 @@ GameObject:
   - component: {fileID: 359322829}
   m_Layer: 0
   m_Name: Table_mat
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7614,7 +7615,7 @@ Transform:
   m_GameObject: {fileID: 359322825}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.844, y: 0.002, z: 2.089}
+  m_LocalPosition: {x: 0.84, y: 0.002, z: 2.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8924,7 +8925,7 @@ GameObject:
   - component: {fileID: 424766945}
   m_Layer: 0
   m_Name: plate1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9485,7 +9486,7 @@ GameObject:
   - component: {fileID: 442538460}
   m_Layer: 0
   m_Name: Box102 (1)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9630,7 +9631,7 @@ Transform:
   m_GameObject: {fileID: 445694959}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3868282, y: -4.5119463e-17, z: 0.0038732132}
+  m_LocalPosition: {x: 0.39, y: -4.5119463e-17, z: 0.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9868,7 +9869,7 @@ GameObject:
   - component: {fileID: 457611406}
   m_Layer: 0
   m_Name: Box105
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10358,7 +10359,7 @@ GameObject:
   - component: {fileID: 479284291}
   m_Layer: 0
   m_Name: Table_mat
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10372,7 +10373,7 @@ Transform:
   m_GameObject: {fileID: 479284287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.844, y: 0.002, z: 2.089}
+  m_LocalPosition: {x: 0.844, y: 0.002, z: 1.8075006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10491,7 +10492,7 @@ GameObject:
   - component: {fileID: 487864210}
   m_Layer: 0
   m_Name: Spoon
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10505,7 +10506,7 @@ Transform:
   m_GameObject: {fileID: 487864206}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.9864993}
+  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.7049999}
   m_LocalScale: {x: 2.2500014, y: 2.2500026, z: 2.2500026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10957,7 +10958,7 @@ GameObject:
   - component: {fileID: 502506362}
   m_Layer: 0
   m_Name: Spoon
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10971,7 +10972,7 @@ Transform:
   m_GameObject: {fileID: 502506358}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.9864993}
+  m_LocalPosition: {x: 0.6, y: 0.0031, z: 2.27}
   m_LocalScale: {x: 2.2500014, y: 2.2500026, z: 2.2500026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11925,7 +11926,7 @@ GameObject:
   - component: {fileID: 544274417}
   m_Layer: 0
   m_Name: Knife
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11939,7 +11940,7 @@ Transform:
   m_GameObject: {fileID: 544274413}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000026077032, y: 0.7071068, z: 0.7071068, w: 0.00000026077032}
-  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.9894993}
+  m_LocalPosition: {x: 1.17, y: 0.0031, z: 2.27}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12058,7 +12059,7 @@ GameObject:
   - component: {fileID: 546412102}
   m_Layer: 0
   m_Name: 'flower_pot_1 '
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12194,7 +12195,7 @@ GameObject:
   - component: {fileID: 546834591}
   m_Layer: 0
   m_Name: plate1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12208,7 +12209,7 @@ Transform:
   m_GameObject: {fileID: 546834587}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 2.0915143}
+  m_LocalPosition: {x: 0.82, y: 0.0017, z: 2.37}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12432,7 +12433,7 @@ GameObject:
   - component: {fileID: 549602898}
   m_Layer: 0
   m_Name: Box109 (5)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13481,6 +13482,8 @@ GameObject:
   - component: {fileID: 616555821}
   - component: {fileID: 616555823}
   - component: {fileID: 616555822}
+  - component: {fileID: 616555825}
+  - component: {fileID: 616555824}
   m_Layer: 0
   m_Name: plate1 (2)
   m_TagString: Untagged
@@ -13553,6 +13556,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616555820}
   m_Mesh: {fileID: 8869258273265193475, guid: 5fa9f029ba8332e42b373839e100507c, type: 3}
+--- !u!54 &616555824
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616555820}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &616555825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616555820}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.28047472, y: 0.023606874, z: 0.28047472}
+  m_Center: {x: 0.00000006705522, y: 0.0118289795, z: 0.00000002980233}
 --- !u!1 &623233191
 GameObject:
   m_ObjectHideFlags: 0
@@ -13568,7 +13619,7 @@ GameObject:
   - component: {fileID: 623233195}
   m_Layer: 0
   m_Name: VaseFloor_1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14034,7 +14085,7 @@ GameObject:
   - component: {fileID: 649937860}
   m_Layer: 0
   m_Name: Box104 (1)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14522,7 +14573,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -15541,13 +15592,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706491593}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.9238795}
+  m_LocalRotation: {x: -0, y: 0.373161, z: -0, w: 0.9277666}
   m_LocalPosition: {x: 519.83777, y: 248.07103, z: -87.90378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 565886608}
-  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 43.821, z: 0}
 --- !u!23 &706491595
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15635,7 +15686,7 @@ GameObject:
   - component: {fileID: 710737785}
   m_Layer: 0
   m_Name: Table_mat
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15649,7 +15700,7 @@ Transform:
   m_GameObject: {fileID: 710737781}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.844, y: 0.002, z: 2.089}
+  m_LocalPosition: {x: 0.844, y: 0.002, z: 1.8075006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16303,7 +16354,7 @@ GameObject:
   - component: {fileID: 737021500}
   m_Layer: 0
   m_Name: Spoon
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16317,7 +16368,7 @@ Transform:
   m_GameObject: {fileID: 737021496}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.9864993}
+  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.7049999}
   m_LocalScale: {x: 2.2500014, y: 2.2500026, z: 2.2500026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16436,7 +16487,7 @@ GameObject:
   - component: {fileID: 738408497}
   m_Layer: 0
   m_Name: Painting_StandPhoto_A
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16842,7 +16893,7 @@ GameObject:
   - component: {fileID: 748542737}
   m_Layer: 0
   m_Name: Kettle
-  m_TagString: GameObject
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17220,7 +17271,7 @@ GameObject:
   - component: {fileID: 766454567}
   m_Layer: 0
   m_Name: Box100 (1)
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17353,7 +17404,7 @@ GameObject:
   - component: {fileID: 768181936}
   m_Layer: 0
   m_Name: dinning_chair
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17367,7 +17418,7 @@ Transform:
   m_GameObject: {fileID: 768181932}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7061267, y: 0.06845808, z: 1.5982262}
+  m_LocalPosition: {x: -0.7061267, y: 0.06845808, z: 1.3167268}
   m_LocalScale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17572,7 +17623,7 @@ GameObject:
   - component: {fileID: 783335299}
   m_Layer: 0
   m_Name: Knife
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17586,7 +17637,7 @@ Transform:
   m_GameObject: {fileID: 783335295}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000026077032, y: 0.7071068, z: 0.7071068, w: 0.00000026077032}
-  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.9894993}
+  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.708}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18815,7 +18866,7 @@ GameObject:
   - component: {fileID: 851183682}
   m_Layer: 0
   m_Name: flower_pot_1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19450,7 +19501,7 @@ GameObject:
   - component: {fileID: 880417297}
   m_Layer: 0
   m_Name: CoffeeMachine
-  m_TagString: NossingObject
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19595,7 +19646,7 @@ Transform:
   m_GameObject: {fileID: 881506858}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7633511, y: 0.5380261, z: -0.005184021}
+  m_LocalPosition: {x: 0.765, y: 0.5380261, z: 0.198}
   m_LocalScale: {x: 0.39370078, y: 0.39370078, z: 0.39370078}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19917,7 +19968,7 @@ GameObject:
   - component: {fileID: 888205653}
   m_Layer: 0
   m_Name: RemoteControl
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20465,7 +20516,7 @@ GameObject:
   - component: {fileID: 912017123}
   m_Layer: 0
   m_Name: Knife
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20479,7 +20530,7 @@ Transform:
   m_GameObject: {fileID: 912017119}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000026077032, y: 0.7071068, z: 0.7071068, w: 0.00000026077032}
-  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.9894993}
+  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.708}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20885,7 +20936,7 @@ Transform:
   m_GameObject: {fileID: 920897506}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.72412634, y: 0.02445805, z: 0.7572261}
+  m_LocalPosition: {x: -0.72412634, y: 0.02445805, z: 0.46199998}
   m_LocalScale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20961,7 +21012,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 76.23227, y: 23.015612, z: 30.453539}
-  m_Center: {x: 0, y: 0.050247665, z: 0.0000009536743}
+  m_Center: {x: 0, y: 0.050247665, z: 0.0000042915344}
 --- !u!1 &923590770
 GameObject:
   m_ObjectHideFlags: 0
@@ -21279,7 +21330,7 @@ GameObject:
   - component: {fileID: 940918028}
   m_Layer: 0
   m_Name: Knife
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21293,7 +21344,7 @@ Transform:
   m_GameObject: {fileID: 940918024}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000026077032, y: 0.7071068, z: 0.7071068, w: 0.00000026077032}
-  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.9894993}
+  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.708}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22440,7 +22491,7 @@ GameObject:
   - component: {fileID: 1009120634}
   m_Layer: 0
   m_Name: plate1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22454,7 +22505,7 @@ Transform:
   m_GameObject: {fileID: 1009120630}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 2.0915143}
+  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 1.810015}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22573,7 +22624,7 @@ GameObject:
   - component: {fileID: 1012231329}
   m_Layer: 0
   m_Name: plate1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22587,7 +22638,7 @@ Transform:
   m_GameObject: {fileID: 1012231325}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 2.0915143}
+  m_LocalPosition: {x: 0.82, y: 0.0017, z: 2.37}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22791,7 +22842,7 @@ GameObject:
   - component: {fileID: 1016111485}
   m_Layer: 0
   m_Name: plate1 (2)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23113,7 +23164,7 @@ GameObject:
   - component: {fileID: 1024755435}
   m_Layer: 0
   m_Name: plate1 (4)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23246,7 +23297,7 @@ GameObject:
   - component: {fileID: 1026666961}
   m_Layer: 0
   m_Name: Laptop
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23891,6 +23942,8 @@ GameObject:
   - component: {fileID: 1054801085}
   - component: {fileID: 1054801087}
   - component: {fileID: 1054801086}
+  - component: {fileID: 1054801089}
+  - component: {fileID: 1054801088}
   m_Layer: 0
   m_Name: plate1
   m_TagString: Untagged
@@ -23963,6 +24016,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054801084}
   m_Mesh: {fileID: 8869258273265193475, guid: 5fa9f029ba8332e42b373839e100507c, type: 3}
+--- !u!54 &1054801088
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054801084}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1054801089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054801084}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.28047472, y: 0.023606874, z: 0.28047472}
+  m_Center: {x: 0.00000006705522, y: 0.0118289795, z: 0.00000002980233}
 --- !u!1 &1056093655
 GameObject:
   m_ObjectHideFlags: 0
@@ -23978,7 +24079,7 @@ GameObject:
   - component: {fileID: 1056093659}
   m_Layer: 0
   m_Name: Box107 (3)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24174,7 +24275,7 @@ GameObject:
   - component: {fileID: 1058948297}
   m_Layer: 0
   m_Name: Box103
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24558,7 +24659,7 @@ GameObject:
   - component: {fileID: 1065107611}
   m_Layer: 0
   m_Name: Box107
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24691,7 +24792,7 @@ GameObject:
   - component: {fileID: 1069826828}
   m_Layer: 0
   m_Name: Knife
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24705,7 +24806,7 @@ Transform:
   m_GameObject: {fileID: 1069826824}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000026077032, y: 0.7071068, z: 0.7071068, w: 0.00000026077032}
-  m_LocalPosition: {x: 1.1706004, y: 0.0031, z: 1.9894993}
+  m_LocalPosition: {x: 1.17, y: 0.0031, z: 2.27}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25282,7 +25383,7 @@ GameObject:
   - component: {fileID: 1101452739}
   m_Layer: 0
   m_Name: Spoon
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25296,7 +25397,7 @@ Transform:
   m_GameObject: {fileID: 1101452735}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.9864993}
+  m_LocalPosition: {x: 0.6, y: 0.0031, z: 2.27}
   m_LocalScale: {x: 2.2500014, y: 2.2500026, z: 2.2500026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26210,7 +26311,7 @@ GameObject:
   - component: {fileID: 1164212819}
   m_Layer: 0
   m_Name: trash-can
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26224,7 +26325,7 @@ Transform:
   m_GameObject: {fileID: 1164212815}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.94176966, z: -0, w: 0.3362589}
-  m_LocalPosition: {x: 3.3456, y: -0.539, z: 3.2948}
+  m_LocalPosition: {x: 3.3456, y: -0.539, z: 3.471}
   m_LocalScale: {x: 0.11920792, y: 0.23657693, z: 0.11920792}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26735,7 +26836,7 @@ GameObject:
   - component: {fileID: 1186547173}
   m_Layer: 0
   m_Name: Box104 (2)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27068,7 +27169,7 @@ GameObject:
   - component: {fileID: 1201005280}
   m_Layer: 0
   m_Name: Box109 (1)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27334,7 +27435,7 @@ GameObject:
   - component: {fileID: 1211661473}
   m_Layer: 0
   m_Name: plate1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27348,7 +27449,7 @@ Transform:
   m_GameObject: {fileID: 1211661469}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 2.0915143}
+  m_LocalPosition: {x: 0.82, y: 0.0017, z: 2.37}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27529,7 +27630,7 @@ GameObject:
   - component: {fileID: 1218908661}
   m_Layer: 0
   m_Name: Fork
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27543,7 +27644,7 @@ Transform:
   m_GameObject: {fileID: 1218908657}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 2.0014994}
+  m_LocalPosition: {x: 1.04, y: 0.0037, z: 2.28}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29180,7 +29281,7 @@ GameObject:
   - component: {fileID: 1291672965}
   m_Layer: 0
   m_Name: Table_mat
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29194,7 +29295,7 @@ Transform:
   m_GameObject: {fileID: 1291672961}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.844, y: 0.002, z: 2.089}
+  m_LocalPosition: {x: 0.844, y: 0.002, z: 1.8075006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29762,7 +29863,7 @@ GameObject:
   - component: {fileID: 1322702541}
   m_Layer: 0
   m_Name: Box103 (1)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31532,7 +31633,7 @@ GameObject:
   - component: {fileID: 1418475898}
   m_Layer: 0
   m_Name: Fork
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31546,7 +31647,7 @@ Transform:
   m_GameObject: {fileID: 1418475894}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 1.0400996, y: 0.0037, z: 2.0014994}
+  m_LocalPosition: {x: 1.04, y: 0.0037, z: 2.28}
   m_LocalScale: {x: 2.4000027, y: 2.4000018, z: 2.4000018}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32418,7 +32519,7 @@ GameObject:
   - component: {fileID: 1471639943}
   m_Layer: 0
   m_Name: Painting_StandPhoto_C
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32714,12 +32815,13 @@ GameObject:
   - component: {fileID: 1476737348}
   - component: {fileID: 1476737347}
   - component: {fileID: 1476737349}
+  - component: {fileID: 1476737350}
   m_Layer: 0
   m_Name: LivingRoom Chair
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1476737346
 Transform:
@@ -32807,6 +32909,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.9378506, y: 1.0072823, z: 0.87258387}
   m_Center: {x: 0.022972599, y: 0.50270617, z: -0.07092494}
+--- !u!54 &1476737350
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476737345}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1478305391
 GameObject:
   m_ObjectHideFlags: 0
@@ -33240,7 +33369,7 @@ GameObject:
   - component: {fileID: 1482334998}
   m_Layer: 0
   m_Name: Box103 (5)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33540,7 +33669,7 @@ GameObject:
   - component: {fileID: 1495408425}
   m_Layer: 0
   m_Name: dinning_chair
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33554,7 +33683,7 @@ Transform:
   m_GameObject: {fileID: 1495408421}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4651265, y: 0.06845808, z: 1.5982262}
+  m_LocalPosition: {x: -1.4651265, y: 0.06845808, z: 1.3167268}
   m_LocalScale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33937,6 +34066,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2070006921}
   - {fileID: 543450652078035713}
   - {fileID: 543450653347152707}
   - {fileID: 543450651591795950}
@@ -34000,7 +34130,7 @@ GameObject:
   - component: {fileID: 1525402621}
   m_Layer: 0
   m_Name: Spoon
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34014,7 +34144,7 @@ Transform:
   m_GameObject: {fileID: 1525402617}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.9864993}
+  m_LocalPosition: {x: 0.6, y: 0.0031, z: 2.27}
   m_LocalScale: {x: 2.2500014, y: 2.2500026, z: 2.2500026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34216,7 +34346,7 @@ GameObject:
   - component: {fileID: 1538788576}
   m_Layer: 0
   m_Name: Towel Holder
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34530,7 +34660,7 @@ Transform:
   m_GameObject: {fileID: 1547638230}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3868282, y: -4.5119463e-17, z: 0.0038732132}
+  m_LocalPosition: {x: 0.39000022, y: -4.5119463e-17, z: 0.5199996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34756,7 +34886,7 @@ GameObject:
   - component: {fileID: 1556168625}
   m_Layer: 0
   m_Name: Box101
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35223,7 +35353,7 @@ GameObject:
   - component: {fileID: 1566581301}
   m_Layer: 0
   m_Name: Spoon
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35237,7 +35367,7 @@ Transform:
   m_GameObject: {fileID: 1566581297}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000026077032, y: -0.7071068, z: -0.7071068, w: -0.00000026077032}
-  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.9864993}
+  m_LocalPosition: {x: 0.6036, y: 0.0031, z: 1.7049999}
   m_LocalScale: {x: 2.2500014, y: 2.2500026, z: 2.2500026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36029,7 +36159,7 @@ GameObject:
   - component: {fileID: 1610705004}
   m_Layer: 0
   m_Name: Box100
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36267,7 +36397,7 @@ GameObject:
   - component: {fileID: 1613625941}
   m_Layer: 0
   m_Name: Magazine-2
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36483,7 +36613,7 @@ GameObject:
   - component: {fileID: 1616969600}
   m_Layer: 0
   m_Name: Painting_Photo_B
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36782,10 +36912,10 @@ GameObject:
   - component: {fileID: 1628032348}
   m_Layer: 0
   m_Name: chopping-board
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1628032345
 Transform:
@@ -37608,7 +37738,7 @@ GameObject:
   - component: {fileID: 1648089329}
   m_Layer: 0
   m_Name: Box104
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37741,10 +37871,10 @@ GameObject:
   - component: {fileID: 1649986008}
   m_Layer: 0
   m_Name: Toaster
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1649986005
 Transform:
@@ -37905,6 +38035,8 @@ GameObject:
   - component: {fileID: 1660107642}
   - component: {fileID: 1660107644}
   - component: {fileID: 1660107643}
+  - component: {fileID: 1660107646}
+  - component: {fileID: 1660107645}
   m_Layer: 0
   m_Name: plate1 (1)
   m_TagString: Untagged
@@ -37977,6 +38109,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660107641}
   m_Mesh: {fileID: 8869258273265193475, guid: 5fa9f029ba8332e42b373839e100507c, type: 3}
+--- !u!54 &1660107645
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660107641}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1660107646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660107641}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.28047472, y: 0.023606874, z: 0.28047472}
+  m_Center: {x: 0.00000006705522, y: 0.0118289795, z: 0.00000002980233}
 --- !u!1 &1678082154
 GameObject:
   m_ObjectHideFlags: 0
@@ -38241,7 +38421,7 @@ GameObject:
   - component: {fileID: 1690442679}
   m_Layer: 0
   m_Name: dinning_chair
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38255,7 +38435,7 @@ Transform:
   m_GameObject: {fileID: 1690442675}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: -0.7061267, y: 0.06845808, z: -0.105773926}
+  m_LocalPosition: {x: -0.7061267, y: 0.06845808, z: -0.3872733}
   m_LocalScale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38689,7 +38869,7 @@ GameObject:
   - component: {fileID: 1723226131}
   m_Layer: 0
   m_Name: knife2
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38703,7 +38883,7 @@ Transform:
   m_GameObject: {fileID: 1723226127}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.21349958, z: -0, w: 0.9769432}
-  m_LocalPosition: {x: 4.68, y: 0.486, z: -2.381}
+  m_LocalPosition: {x: 4.68, y: 0.486, z: -2.335}
   m_LocalScale: {x: 0.068407945, y: 0.06840795, z: 0.06840794}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38990,7 +39170,7 @@ GameObject:
   - component: {fileID: 1724375656}
   m_Layer: 0
   m_Name: Magazine
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39457,7 +39637,7 @@ GameObject:
   - component: {fileID: 1740801067}
   m_Layer: 0
   m_Name: plate1
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39471,7 +39651,7 @@ Transform:
   m_GameObject: {fileID: 1740801063}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 2.0915143}
+  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 1.810015}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39686,7 +39866,7 @@ Transform:
   m_GameObject: {fileID: 1756780546}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3868282, y: -4.5119463e-17, z: 0.0038732132}
+  m_LocalPosition: {x: 0.39, y: -4.5119463e-17, z: 0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40093,7 +40273,7 @@ GameObject:
   - component: {fileID: 1765201774}
   m_Layer: 0
   m_Name: plate1 (3)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41089,7 +41269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54717fd9782cf247ab61521512f8ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charaCon: {fileID: 1811367593}
   _Speed: 1.5
   _mouseSensitivity: 1.5
   camTrans: {fileID: 963194228}
@@ -41320,7 +41499,7 @@ GameObject:
   - component: {fileID: 1830292110}
   m_Layer: 0
   m_Name: plate1
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41334,7 +41513,7 @@ Transform:
   m_GameObject: {fileID: 1830292106}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 2.0915143}
+  m_LocalPosition: {x: 0.8252, y: 0.0017, z: 1.810015}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41923,7 +42102,7 @@ GameObject:
   - component: {fileID: 1851521582}
   - component: {fileID: 1851521585}
   - component: {fileID: 1851521584}
-  - component: {fileID: 1851521583}
+  - component: {fileID: 1851521586}
   m_Layer: 0
   m_Name: LivingRoom Carpet
   m_TagString: Untagged
@@ -41940,34 +42119,12 @@ Transform:
   m_GameObject: {fileID: 1851521581}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7771139, y: -0.7723025, z: -1.3645918}
+  m_LocalPosition: {x: 1.423, y: -0.7723025, z: -1.3645918}
   m_LocalScale: {x: 0.14367363, y: 0.17800184, z: 0.17800184}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2104359279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1851521583
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851521581}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1851521584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42018,6 +42175,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851521581}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1851521586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851521581}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: -0.00000047683716, z: 0}
 --- !u!1 &1861703768
 GameObject:
   m_ObjectHideFlags: 0
@@ -42958,7 +43136,7 @@ GameObject:
   - component: {fileID: 1914673303}
   m_Layer: 0
   m_Name: Box108 (1)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43465,7 +43643,7 @@ GameObject:
   - component: {fileID: 1936507641}
   m_Layer: 0
   m_Name: Painting_Small_C
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43598,7 +43776,7 @@ GameObject:
   - component: {fileID: 1940311357}
   m_Layer: 0
   m_Name: Towel Holder
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43732,7 +43910,7 @@ GameObject:
   - component: {fileID: 1944877974}
   m_Layer: 0
   m_Name: Box102
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43865,7 +44043,7 @@ GameObject:
   - component: {fileID: 1967623723}
   m_Layer: 0
   m_Name: Table_mat
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43879,7 +44057,7 @@ Transform:
   m_GameObject: {fileID: 1967623719}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.844, y: 0.002, z: 2.089}
+  m_LocalPosition: {x: 0.84, y: 0.002, z: 2.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44988,7 +45166,7 @@ GameObject:
   - component: {fileID: 2038135832}
   m_Layer: 0
   m_Name: dinning_chair
-  m_TagString: Untagged
+  m_TagString: NossingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45002,7 +45180,7 @@ Transform:
   m_GameObject: {fileID: 2038135828}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05287409, y: 0.06845808, z: 1.5982262}
+  m_LocalPosition: {x: 0.05287409, y: 0.06845808, z: 1.3167268}
   m_LocalScale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45773,6 +45951,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069657329}
   m_Mesh: {fileID: 4300000, guid: c3f7617c4f55f634e9fd0a90acf38ebf, type: 3}
+--- !u!1 &2070006920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2070006921}
+  - component: {fileID: 2070006924}
+  - component: {fileID: 2070006923}
+  - component: {fileID: 2070006922}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2070006921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070006920}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1520485318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2070006922
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070006920}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6304264, y: 2.9919486, z: 0.4015894}
+  m_Center: {x: 1.1314039, y: 2.9415739, z: -2.5774503}
+--- !u!65 &2070006923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070006920}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4711839, y: 3.2976394, z: 0.16738367}
+  m_Center: {x: 0.6963149, y: 3.0987685, z: 1.4988315}
+--- !u!65 &2070006924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070006920}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22409393, y: 2.2888656, z: 4.479269}
+  m_Center: {x: -0.051991127, y: 3.6765583, z: -0.8000965}
 --- !u!1 &2073810672
 GameObject:
   m_ObjectHideFlags: 0
@@ -46164,13 +46439,13 @@ GameObject:
   - component: {fileID: 2089094801}
   - component: {fileID: 2089094800}
   - component: {fileID: 2089094803}
-  - component: {fileID: 2089094802}
+  - component: {fileID: 2089094804}
   m_Layer: 0
   m_Name: Dressing_mirror
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2089094799
 Transform:
@@ -46238,29 +46513,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089094798}
   m_Mesh: {fileID: 4300000, guid: 1ae81928219d4a443b7172bffd15591a, type: 3}
---- !u!136 &2089094802
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089094798}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 8.511544
-  m_Height: 37.33403
-  m_Direction: 1
-  m_Center: {x: -0.6603479, y: 18.704514, z: -0.5427844}
 --- !u!54 &2089094803
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -46288,6 +46540,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2089094804
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089094798}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 16.025846, y: 37.33403, z: 17.023088}
+  m_Center: {x: -0.6603479, y: 18.704514, z: -0.5427844}
 --- !u!1 &2104359278
 GameObject:
   m_ObjectHideFlags: 0
@@ -46787,7 +47060,7 @@ GameObject:
   - component: {fileID: 2122669299}
   m_Layer: 0
   m_Name: Box106 (1)
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46958,7 +47231,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 500
+  m_Intensity: 30
   m_Range: 105.11406
   m_SpotAngle: 132.39543
   m_InnerSpotAngle: 101.52458
@@ -47277,7 +47550,7 @@ GameObject:
   - component: {fileID: 2135039378}
   m_Layer: 0
   m_Name: dinning_chair
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47291,7 +47564,7 @@ Transform:
   m_GameObject: {fileID: 2135039374}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 0.05284834, y: 0.06845808, z: -0.09173906}
+  m_LocalPosition: {x: 0.05284834, y: 0.06845808, z: -0.37323844}
   m_LocalScale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
   m_ConstrainProportionsScale: 0
   m_Children: []

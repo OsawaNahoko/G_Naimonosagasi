@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/myAssets_OSAWA/Scenes/BuldSenes/2_1_GameClear.unity
+- path: Assets/myAssets_OSAWA/Scenes/BuldSenes/0_1_title.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

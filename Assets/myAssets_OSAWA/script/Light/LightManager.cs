@@ -14,12 +14,15 @@ public class LightManager : MonoBehaviour
     Light HandLightComponet;
 
     [SerializeField] LightData lightData;//LightData
+    [SerializeField] GameObject LookLimit;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Sece上にあるNossingObjectを取得
         _NossingObj = GameObject.FindGameObjectsWithTag("NossingObject");
 
+        //MainLiteとHandLitを取得
         if(MainLight != null && HandLight != null)
         {
                 MainLightComponet = MainLight.gameObject.GetComponent<Light>();
@@ -50,6 +53,8 @@ public class LightManager : MonoBehaviour
     IEnumerator Light_Up()
     {
         isPlaing   = true;//判定を処理中にする。
+        
+        float a = 0.0f;
 
         //ライトが点灯していなかったら
         if(lightData.isLighting == false)
@@ -58,8 +63,14 @@ public class LightManager : MonoBehaviour
             //HandLightを消灯。
             HandLightComponet.intensity = 0.0f;
 
-            //MainLightを点灯。
-            MainLightComponet.intensity = 500.0f;
+            //MainLightを徐々に点灯。
+            while(MainLightComponet.intensity < 30.0f)
+            {
+                MainLightComponet.intensity += 5.0f;
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            LookLimit.SetActive(false);
 
             //Nossingオブジェクトを表示しています。
             if(_NossingObj == null)
@@ -84,8 +95,17 @@ public class LightManager : MonoBehaviour
             //HandLightを点灯。
             HandLightComponet.intensity = 300.0f;
 
-            //MainLightを消灯。
-            MainLightComponet.intensity = 0.0f;
+            // //MainLightを消灯。
+            // MainLightComponet.intensity = 0.0f;
+
+            //MainLightを徐々に消灯。
+            while(MainLightComponet.intensity > 0.0f)
+            {
+                MainLightComponet.intensity -= 5.0f;
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            LookLimit.SetActive(true);
 
             //Nossingオブジェクトを非表示にしています。
             if(_NossingObj == null)
@@ -103,7 +123,7 @@ public class LightManager : MonoBehaviour
             Debug.Log("ライト消灯！！");
         }
         
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(2.0f);
 
         isPlaing   = false;//判定を元の状態にする。
         Debug.Log($"isPlaing is {isPlaing}");

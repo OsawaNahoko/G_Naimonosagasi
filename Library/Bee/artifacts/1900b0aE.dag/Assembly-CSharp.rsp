@@ -399,6 +399,7 @@
 "Assets/myAssets_OSAWA/script/Player/Grab.cs"
 "Assets/myAssets_OSAWA/script/Player/look.cs"
 "Assets/myAssets_OSAWA/script/Player/MoveManeger.cs"
+"Assets/myAssets_OSAWA/script/Player/PlayController.cs"
 "Assets/myAssets_OSAWA/script/Player/RaycastTest.cs"
 "Assets/myAssets_OSAWA/script/portal/portal.cs"
 "Assets/myAssets_OSAWA/script/Sound/BGMplayer.cs"

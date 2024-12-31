@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
+        
 
         if(AllObjectText != null)
         {
