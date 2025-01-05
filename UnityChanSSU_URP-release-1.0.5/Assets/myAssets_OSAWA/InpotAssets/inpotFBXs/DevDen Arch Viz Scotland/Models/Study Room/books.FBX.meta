@@ -1,84 +1,195 @@
 fileFormatVersion: 2
-guid: cae20d449b830c542a7b41a50ba3dfec
+guid: c3bd1f92f6c766841bf2fe0a1b78f261
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21202
   internalIDToNameTable:
   - first:
       1: 100000
-    second: Cylinder
+    second: //RootNode
   - first:
       1: 100002
-    second: //RootNode
+    second: Box100
   - first:
       1: 100004
-    second: Sphere
+    second: Box101
   - first:
       1: 100006
-    second: Torus
+    second: Box102
+  - first:
+      1: 100008
+    second: Box103
+  - first:
+      1: 100010
+    second: Box104
+  - first:
+      1: 100012
+    second: Box105
+  - first:
+      1: 100014
+    second: Box106
+  - first:
+      1: 100016
+    second: Box107
+  - first:
+      1: 100018
+    second: Box108
+  - first:
+      1: 100020
+    second: Box109
   - first:
       4: 400000
-    second: Cylinder
-  - first:
-      4: 400002
     second: //RootNode
   - first:
+      4: 400002
+    second: Box100
+  - first:
       4: 400004
-    second: Sphere
+    second: Box101
   - first:
       4: 400006
-    second: Torus
+    second: Box102
+  - first:
+      4: 400008
+    second: Box103
+  - first:
+      4: 400010
+    second: Box104
+  - first:
+      4: 400012
+    second: Box105
+  - first:
+      4: 400014
+    second: Box106
+  - first:
+      4: 400016
+    second: Box107
+  - first:
+      4: 400018
+    second: Box108
+  - first:
+      4: 400020
+    second: Box109
   - first:
       21: 2100000
-    second: Material.002
+    second: Material #59
   - first:
       21: 2100002
-    second: Material.001
+    second: Material #60
   - first:
       21: 2100004
-    second: Material.003
+    second: Material #61
+  - first:
+      21: 2100006
+    second: Material #62
+  - first:
+      21: 2100008
+    second: Material #63
+  - first:
+      21: 2100010
+    second: Material #64
+  - first:
+      21: 2100012
+    second: Material #65
+  - first:
+      21: 2100014
+    second: Material #66
+  - first:
+      21: 2100016
+    second: Material #67
+  - first:
+      21: 2100018
+    second: Material #68
   - first:
       23: 2300000
-    second: Cylinder
+    second: Box100
   - first:
       23: 2300002
-    second: Sphere
+    second: Box101
   - first:
       23: 2300004
-    second: Torus
+    second: Box102
+  - first:
+      23: 2300006
+    second: Box103
+  - first:
+      23: 2300008
+    second: Box104
+  - first:
+      23: 2300010
+    second: Box105
+  - first:
+      23: 2300012
+    second: Box106
+  - first:
+      23: 2300014
+    second: Box107
+  - first:
+      23: 2300016
+    second: Box108
+  - first:
+      23: 2300018
+    second: Box109
   - first:
       33: 3300000
-    second: Cylinder
+    second: Box100
   - first:
       33: 3300002
-    second: Sphere
+    second: Box101
   - first:
       33: 3300004
-    second: Torus
+    second: Box102
+  - first:
+      33: 3300006
+    second: Box103
+  - first:
+      33: 3300008
+    second: Box104
+  - first:
+      33: 3300010
+    second: Box105
+  - first:
+      33: 3300012
+    second: Box106
+  - first:
+      33: 3300014
+    second: Box107
+  - first:
+      33: 3300016
+    second: Box108
+  - first:
+      33: 3300018
+    second: Box109
   - first:
       43: 4300000
-    second: Cylinder
+    second: Box100
   - first:
       43: 4300002
-    second: Sphere
+    second: Box101
   - first:
       43: 4300004
-    second: Torus
-  externalObjects:
+    second: Box102
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 64f805104b8d23d458ee796d2730b7fe, type: 2}
+      43: 4300006
+    second: Box103
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 64f805104b8d23d458ee796d2730b7fe, type: 2}
+      43: 4300008
+    second: Box104
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 64f805104b8d23d458ee796d2730b7fe, type: 2}
+      43: 4300010
+    second: Box105
+  - first:
+      43: 4300012
+    second: Box106
+  - first:
+      43: 4300014
+    second: Box107
+  - first:
+      43: 4300016
+    second: Box108
+  - first:
+      43: 4300018
+    second: Box109
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -115,15 +226,14 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 0
     fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -143,7 +253,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -176,8 +285,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
-  importBlendShapeDeformPercent: 0
-  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
