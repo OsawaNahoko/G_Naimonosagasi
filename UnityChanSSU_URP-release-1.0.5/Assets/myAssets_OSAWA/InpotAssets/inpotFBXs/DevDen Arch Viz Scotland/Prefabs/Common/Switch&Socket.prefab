@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 5313187649004800756}
   - component: {fileID: -8762805567442157450}
   m_Layer: 0
-  m_Name: 'Switch&Socket '
+  m_Name: Switch&Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
