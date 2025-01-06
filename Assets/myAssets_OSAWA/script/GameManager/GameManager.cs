@@ -30,4 +30,5 @@ public class GameManager : MonoBehaviour
             Debug.Log("AllObjectText is null");
         }
     }
+
 }
