@@ -8,6 +8,7 @@ public class lookLine : MonoBehaviour
     [SerializeField] Color color;//アウトラインカラー;
     GameObject CollgameObject;  //衝突したオブジェクトを入れておく変数。;
     Outline Collobjeoutline;    //AddしたｓOutlineを入れておく変数;
+    testScript TestScript;
 
     // Update is called once per frame
     void  OnTriggerEnter(Collider collision)
@@ -27,15 +28,19 @@ public class lookLine : MonoBehaviour
             }
             else
             {
-                CollgameObject.AddComponent<Outline>();
-                CollgameObject.AddComponent<testScript>();
-                Collobjeoutline =  CollgameObject.GetComponent<Outline>();
+                Collobjeoutline = CollgameObject.AddComponent<Outline>();
             }
             // Outline の設定
             if (Collobjeoutline != null)
             {
-                Collobjeoutline.OutlineColor = color;
-                Collobjeoutline.OutlineWidth = 10.0f;
+                Debug.Log($"TestScript is {TestScript}");
+
+                Collobjeoutline.OutlineMode = Outline.Mode.OutlineVisible;
+                Collobjeoutline.OutlineColor = Color.yellow;
+                Collobjeoutline.OutlineWidth = 5f;
+
+                // Collobjeoutline.enabled = false;
+                // Collobjeoutline.enabled = true; // 強制的に再描画させる
             }
             else
             {
