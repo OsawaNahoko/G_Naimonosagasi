@@ -40,11 +40,11 @@ public class LightManager : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R) && isPlaing == false)
+        if(Input.GetKeyDown(KeyCode.R) && isPlaing == false || Input.GetButtonDown("Fire1") &&  isPlaing == false )
         {
             if(lightData != null)
             {
-                StartCoroutine("Light_Up");
+                StartCoroutine("LightMove");
             }
             else
             {
@@ -53,7 +53,7 @@ public class LightManager : MonoBehaviour
         }
     }
 
-    IEnumerator Light_Up()
+    IEnumerator LightMove()
     {
         isPlaing   = true;//判定を処理中にする。
         

@@ -15,7 +15,7 @@ public class Grab : MonoBehaviour
     void Update()
     {
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) || Input.GetButtonDown("Fire2") )
         {
             
             Debug.Log($"_GrabFlag is {_GrabFlag}");

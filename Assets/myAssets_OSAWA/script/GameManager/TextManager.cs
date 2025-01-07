@@ -29,18 +29,9 @@ public class TextManager : MonoBehaviour
 
     [Space]
 
-    // //アニメーションです。
-    // public Animator[] Chara_Animation;
 
     //セリフを変えるために使う配列です。
     private string[] currentTalks;
-
-
-    // // [SerializeField,Header("画像リスト")]
-    // public AnimetionArray[] _AnimArray;
-    // public int rader_Animetion;
-    // public int Egao_Animetion;
-    // public int magao_Animetion;
 
 
     //セリフリストです。
@@ -65,37 +56,11 @@ public class TextManager : MonoBehaviour
     {
         _action += PlayTalk;
 
-        //          if (other.gameObject.tag == "Stat")
-        //  {
-        if(TextCowntn == 1 || TextCowntn == 2 || TextCowntn == 3)
-        {               
+
+        if (TextCowntn == 1 || TextCowntn == 2 || TextCowntn == 3)
+        {
             Dialogue_1();
         }
-        // }
-        // if(other.gameObject.tag == "END")
-        // {
-        //     TextCowntn ++;
-        // }
-    }
-
-    // void StartAnimation(int AnimationNumber,string AnimationName,bool Flg)
-    // {
-    //     Chara_Animation[AnimationNumber].SetBool(AnimationName,Flg);
-    // }
-
-     void OnTriggerEnter(Collider other)
-    {
-        //  if (other.gameObject.tag == "Stat")
-        //  {
-        //     if(TextCowntn == 1 || TextCowntn == 2 || TextCowntn == 3)
-        //     {               
-        //         Dialogue_1();
-        //     }
-        // }
-        // if(other.gameObject.tag == "END")
-        // {
-        //     TextCowntn ++;
-        // }
     }
     void Dialogue_1()
     {
@@ -114,21 +79,6 @@ public class TextManager : MonoBehaviour
         if(loopCaheck())
         {
             talkNum++;
-
-            // if(talkNum == rader_Animetion)
-            // {
-            //     StartAnimation(1,"rader_Bool",true);
-            // }    
-            
-            // if(talkNum == Egao_Animetion)
-            // {
-            //     StartAnimation(2,"Egao_Bool",true);
-            // }
-
-            // if(talkNum == magao_Animetion)
-            // {
-            //     StartAnimation(2,"Egao_Bool",false);
-            // }  
 
             StartCoroutine(OnStartTalk(OnFinishedTalk));
         }
@@ -177,8 +127,6 @@ public class TextManager : MonoBehaviour
             //一定時間待機しています。
             yield return delay;
         }
-        // //口パクアニメーションを停止しています。
-        // StartAnimation(0,"Mouth_Bool",false);
 
         // 一定時間待機
         yield return new WaitForSeconds(1.0f);

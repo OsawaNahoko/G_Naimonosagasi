@@ -29,6 +29,7 @@ public class lookLine : MonoBehaviour
             {
                 Collobjeoutline = CollgameObject.AddComponent<Outline>();
             }
+
             // Outline の設定
             if (Collobjeoutline != null)
             {
@@ -38,7 +39,7 @@ public class lookLine : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Collobjectline is null");
+                Debug.LogWarning("Collobjectline is null");
             }
         }
     }
