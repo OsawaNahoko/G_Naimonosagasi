@@ -12,6 +12,8 @@ public class portal : MonoBehaviour
     [SerializeField] AllObjectData allObjectData;
     [SerializeField] GameObject GameClear;
 
+    [SerializeField] float WaitTime;
+
     int NossingCount = 0;
 
     void Start()
@@ -51,7 +53,7 @@ public class portal : MonoBehaviour
                 if(allObjectData.AllObjectCount == NossingCount)
                 {
                     GameClear.SetActive(true);
-                    StartCoroutine(GameClearScene(1.0f));
+                    StartCoroutine(GameClearScene(WaitTime));
                 }
             }
             else

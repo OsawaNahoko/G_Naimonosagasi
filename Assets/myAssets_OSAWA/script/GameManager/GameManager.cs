@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField]Text AllObjectText;
     [SerializeField] AllObjectData allObjectData;
+    [SerializeField] UnityEvent events;
+
     string ActiveSceneName;
-    // Start is called before the first frame update
+
     void Start()
     {
         ActiveSceneName = SceneManager.GetActiveScene().name;
@@ -29,6 +32,19 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("AllObjectText is null");
         }
+    }
+
+    void Update()
+    {
+        if(ActiveSceneName == "0_1_title")
+        {
+            if( Input.GetButtonDown("Fire1"))
+            {
+                Debug.Log("処理を検知");
+                this.events.Invoke();
+            }
+        }
+
     }
 
 }

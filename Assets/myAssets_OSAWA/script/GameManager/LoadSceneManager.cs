@@ -9,22 +9,22 @@ public class LoadSceneManager : MonoBehaviour
     public float WaitTime;
 
     //ゲームシーンを呼び出せます
-     public void Load_GameScene(BaseEventData data)
+     public void Load_GameScene()
     {
         StartCoroutine(GameScene(WaitTime));
     }
     //タイトルシーンを呼び出せます
-     public void Load_TitletScene(BaseEventData data)
+     public void Load_TitletScene()
     {
         StartCoroutine(TitleScene(WaitTime));
     }
     //現在のシーンを再ロードします。
-     public void RLoad_ActiveScene(BaseEventData data)
+     public void RLoad_ActiveScene()
     {
         StartCoroutine(ReloadScene(WaitTime));
     }
     //アプリケーションを終了させる事が出来ます。
-     public void Quit(BaseEventData data)
+     public void Quit()
     {
         Application.Quit();
     }
