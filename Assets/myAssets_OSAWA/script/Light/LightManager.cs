@@ -17,7 +17,6 @@ public class LightManager : MonoBehaviour
     Light HandLightComponet;
 
     [SerializeField] LightData lightData;//LightData
-    [SerializeField] GameObject LookLimit;
 
     // Start is called before the first frame update
     void Start()
@@ -68,7 +67,6 @@ public class LightManager : MonoBehaviour
                 HandLightComponet.intensity -= LightCount;
                 yield return new WaitForSeconds(LightWaitTime);
             }
-
             
             //Nossingオブジェクトを表示しています。
             if(_NossingObj == null)
@@ -85,8 +83,7 @@ public class LightManager : MonoBehaviour
             
             yield return new WaitForSeconds(0.5f);
 
-
-            //MainLightを徐々に点灯。
+            //MainLightを徐々に点灯。インクリメント
             while(MainLightComponet.intensity < LightLebel)
             {
                 MainLightComponet.intensity += LightCount;
@@ -134,6 +131,7 @@ public class LightManager : MonoBehaviour
         }
 
         isPlaing   = false;//判定を元の状態にする。
+        
         Debug.Log($"isPlaing is {isPlaing}");
 
     }
